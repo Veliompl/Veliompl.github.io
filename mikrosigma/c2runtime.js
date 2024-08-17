@@ -20090,11 +20090,11 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
-	cr.plugins_.TextBox,
-	cr.plugins_.TiledBg,
+	cr.plugins_.Mouse,
 	cr.plugins_.Text,
+	cr.plugins_.TiledBg,
+	cr.plugins_.TextBox,
 	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
 	cr.behaviors.EightDir,
