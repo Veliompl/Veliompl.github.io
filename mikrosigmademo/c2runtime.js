@@ -20092,10 +20092,10 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
 	cr.plugins_.TextBox,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Spritefont2,
 	cr.behaviors.EightDir,
 	cr.behaviors.solid,
@@ -20137,6 +20137,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.cnds.Every,
-	cr.system_object.prototype.acts.CreateObject
+	cr.system_object.prototype.acts.CreateObject,
+	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};
 
