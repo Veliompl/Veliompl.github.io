@@ -20092,10 +20092,10 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Text,
+	cr.plugins_.Sprite,
 	cr.plugins_.Spritefont2,
 	cr.plugins_.TextBox,
-	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.plugins_.TiledBg,
 	cr.behaviors.EightDir,
 	cr.behaviors.solid,
@@ -20111,6 +20111,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.TiledBg.prototype.acts.SetPos,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.behaviors.EightDir.prototype.acts.SimulateControl,
 	cr.system_object.prototype.cnds.EveryTick,
@@ -20131,13 +20132,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Sprite.prototype.acts.SetWidth,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
-	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.behaviors.Bullet.prototype.acts.Bounce,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.acts.CreateObject,
-	cr.plugins_.Sprite.prototype.acts.SetPos
+	cr.system_object.prototype.cnds.OnLayoutStart
 ];};
 
