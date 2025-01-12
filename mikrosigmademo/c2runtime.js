@@ -20090,13 +20090,13 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
-	cr.plugins_.Sprite,
+	cr.plugins_.Keyboard,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Spritefont2,
+	cr.plugins_.Sprite,
 	cr.plugins_.TextBox,
 	cr.plugins_.Text,
+	cr.plugins_.Spritefont2,
 	cr.behaviors.EightDir,
 	cr.behaviors.solid,
 	cr.behaviors.scrollto,
@@ -20133,7 +20133,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetWidth,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
-	cr.behaviors.Bullet.prototype.acts.Bounce,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.cnds.Every,
