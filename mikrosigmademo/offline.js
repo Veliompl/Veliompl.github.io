@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1759773659,
+	"version": 1761157736,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -90,6 +90,7 @@
 		"images/sprite71-sheet0.png",
 		"images/sprite71-sheet1.png",
 		"images/sprite72-sheet0.png",
+		"images/sprite73-sheet0.png",
 		"media/arab music - meme (sound effect).ogg",
 		"media/whatsapp video 2025-09-27 at 10.17.16.ogg",
 		"media/wybuch.ogg",
